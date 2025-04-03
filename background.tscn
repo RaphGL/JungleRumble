@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://codjh7knydqsp"]
+
+[ext_resource type="Texture2D" uid="uid://b04tlujlj8amt" path="res://assets/parallax background/plx-1.png" id="1_eq6nc"]
+[ext_resource type="Texture2D" uid="uid://d2f11sobdwfaw" path="res://assets/parallax background/plx-2.png" id="2_bpugw"]
+[ext_resource type="Texture2D" uid="uid://cuw01swjf4uy1" path="res://assets/parallax background/plx-3.png" id="3_gjjrj"]
+[ext_resource type="Texture2D" uid="uid://bj6r8r2fupgud" path="res://assets/parallax background/plx-4.png" id="4_vvxqx"]
+[ext_resource type="Texture2D" uid="uid://dt0jgrvorb6a5" path="res://assets/parallax background/plx-5.png" id="5_cdpnt"]
+
+[node name="Background" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1150.0
+offset_bottom = 650.0
+texture = ExtResource("1_eq6nc")
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="Parallax2D"]
+offset_right = 1150.0
+offset_bottom = 650.0
+texture = ExtResource("2_bpugw")
+
+[node name="Parallax2D2" type="Parallax2D" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="Parallax2D2"]
+offset_right = 1150.0
+offset_bottom = 650.0
+texture = ExtResource("3_gjjrj")
+
+[node name="Parallax2D3" type="Parallax2D" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="Parallax2D3"]
+offset_right = 1150.0
+offset_bottom = 650.0
+texture = ExtResource("4_vvxqx")
+
+[node name="Parallax2D4" type="Parallax2D" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="Parallax2D4"]
+offset_right = 1150.0
+offset_bottom = 650.0
+texture = ExtResource("5_cdpnt")
