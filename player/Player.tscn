@@ -255,7 +255,7 @@ JumpSpeed = 350.0
 scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_d4g0h")
 animation = &"run"
-frame_progress = 0.124808
+frame_progress = 0.824224
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 0)
